@@ -1,0 +1,40 @@
+@import '../../sass/variables';
+
+.ship {
+    display: flex;
+    align-items: center;
+    margin: 0 10px 20px;
+    justify-content: space-between;
+    border: 1px solid $colorBorder;
+    border-radius: 5px;
+    box-shadow: 5px 7px 9px -1px rgba(125, 120, 120, 0.75);
+    -webkit-box-shadow: 5px 7px 9px -1px rgba(125, 120, 120, 0.75);
+    -moz-box-shadow: 5px 7px 9px -1px rgba(125, 120, 120, 0.75);
+    overflow: hidden;
+    background: $colorWhite;
+}
+
+.content {
+    padding: 5px 15px;
+    flex: 0 1 60%;
+    max-width: 60%;
+}
+
+.media {
+    flex: 0 1 40%;
+    max-width: 40%;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    display: block;
+}
+
+.title {
+    margin: 0 0 10px;
+}
+
+.text {
+    font-weight: bold;
+}
