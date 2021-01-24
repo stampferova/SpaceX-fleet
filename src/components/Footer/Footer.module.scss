@@ -1,0 +1,14 @@
+@import '../../sass/variables';
+
+.footer {
+    height: 40px;
+    background: $colorPrimary;
+}
+
+.copyright {
+    color: $colorSecondary;
+    text-align: center;
+    font-weight: bold;
+    margin: 0%;
+    padding: 10px;
+}
