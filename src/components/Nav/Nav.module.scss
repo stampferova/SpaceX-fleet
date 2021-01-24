@@ -1,0 +1,28 @@
+@import '../../sass/variables';
+
+.nav {
+    height: 80px;
+    overflow: hidden;
+    background: $colorPrimary;
+    margin-bottom: 50px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo {
+    margin: 0 25px;
+}
+
+.icon {
+    display: block;
+    height: 60px;
+    width: 50px;
+}
+
+.title {
+    color: $colorSecondary;
+}
