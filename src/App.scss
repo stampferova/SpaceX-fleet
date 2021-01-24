@@ -8,10 +8,22 @@ body {
 
 .container {
     max-width: 1400px;
-    padding: 0 20px;
+    padding: 0 5px;
     margin: 0 auto;
 }
 
 * {
     box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        padding: 0 20px;
+    }
 }
