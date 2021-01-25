@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { ReactComponent as Logo } from './rocket.svg';
 import styles from './Nav.module.scss';
 
-export const Nav = ({ children }) => {
+export const Nav = () => {
     return (
         <nav className={styles.nav}>
             <div className="container">
