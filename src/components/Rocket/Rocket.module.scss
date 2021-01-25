@@ -1,0 +1,25 @@
+@import '../../sass/variables';
+
+.item {
+    border-radius: 5px;
+    box-shadow: $boxShadow;
+    background: $colorWhite;
+    padding: 5px 15px;
+    height: 100%;
+}
+
+.heading {
+    margin-bottom: 15px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.text {
+    margin: 5px 0;
+}
+
+.perex {
+    font-size: 14px;
+}
