@@ -1,0 +1,13 @@
+@import '../../sass/variables';
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    color: $colorSecondary;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
