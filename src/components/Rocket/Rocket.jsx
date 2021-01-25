@@ -4,7 +4,7 @@ import { StyledLink } from '../StyledLink/StyledLink';
 
 export const Rocket = ({ name, flight, weight, description, link }) => {
     return (
-        <div className={styles.item}>
+        <article className={styles.item}>
             <h2 className={styles.heading}>{name}</h2>
             <p className={styles.paragraph}>{description}</p>
             <p className={styles.text}>
@@ -22,6 +22,6 @@ export const Rocket = ({ name, flight, weight, description, link }) => {
                 </StyledLink>
                 .
             </p>
-        </div>
+        </article>
     );
 };
