@@ -25,9 +25,7 @@ function App() {
                         </Switch>
                     </div>
                 </main>
-                <footer>
-                    <Footer />
-                </footer>
+                <Footer />
             </div>
         </Router>
     );
