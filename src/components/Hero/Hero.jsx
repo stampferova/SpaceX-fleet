@@ -3,7 +3,7 @@ import styles from './Hero.module.scss';
 
 export const Hero = ({ image, title }) => (
     <div className={styles.hero}>
-        <img src={image} className={styles.image} />
+        <img src={image} className={styles.image} alt="" />
         <h1 className={styles.title}>{title}</h1>
     </div>
 );
