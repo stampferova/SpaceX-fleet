@@ -1,28 +1,80 @@
 @import '../../sass/variables';
 
 .nav {
-    height: 80px;
+    height: 60px;
     overflow: hidden;
     background: $colorPrimary;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .content {
     display: flex;
     align-items: center;
-    padding: 5px;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .logo {
-    margin: 0 25px;
+    display: flex;
+    align-items: center;
 }
 
 .icon {
     display: block;
-    height: 60px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
 }
 
 .title {
     color: $colorSecondary;
+    margin: 0;
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    color: $colorSecondary;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 10px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.is_active {
+    color: $colorWhite;
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .link {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav {
+        margin-bottom: 30px;
+        height: 80px;
+    }
+
+    .content {
+        padding: 10px 30px;
+    }
+
+    .icon {
+        height: 60px;
+    }
 }
