@@ -27,13 +27,13 @@ main {
     flex-grow: 1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
     .container {
         padding: 0 10px;
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: $desktop) {
     .container {
         padding: 0 20px;
     }

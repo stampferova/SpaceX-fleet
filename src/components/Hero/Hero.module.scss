@@ -24,7 +24,7 @@
     margin: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
     .hero {
         height: 120px;
         margin-bottom: 20px;
@@ -35,7 +35,7 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: $desktop) {
     .hero {
         margin-bottom: 30px;
     }
