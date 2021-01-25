@@ -7,7 +7,7 @@ export const Ship = ({ name, image, weight, year }) => (
             <h2 className={styles.title}>{name}</h2>
 
             <div>
-                <span className={styles.text}>Weight of ship:</span>{' '}
+                <span className={styles.text}>Weight of ship: </span>
                 {weight ? `${weight} Kg` : 'NA'}
             </div>
             <div>

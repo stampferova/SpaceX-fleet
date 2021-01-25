@@ -1,6 +1,7 @@
 import React from 'react';
+
 import { Ship } from '../Ship/Ship';
-import styles from './ShipList.module.scss';
+import { List } from '../List/List';
 
 export const ShipList = () => {
     const [ships, setShips] = React.useState();
@@ -11,20 +12,19 @@ export const ShipList = () => {
             .then(dataInJson => setShips(dataInJson));
     }, []);
     return (
-        <div>
-            <ul className={styles.list}>
+        <div className="mb-md">
+            <List>
                 {ships &&
-                    ships.map(({ ship_id, image, weight_kg, year_built, ship_name }) => (
-                        <li key={ship_id} className={styles.item}>
-                            <Ship
-                                name={ship_name}
-                                image={image}
-                                weight={weight_kg}
-                                year={year_built}
-                            />
-                        </li>
+                    ships.map(({ image, weight_kg, year_built, ship_name }) => (
+                        <Ship
+                            key={ship_name}
+                            name={ship_name}
+                            image={image}
+                            weight={weight_kg}
+                            year={year_built}
+                        />
                     ))}
-            </ul>
+            </List>
         </div>
     );
 };

@@ -3,13 +3,9 @@
 .ship {
     display: flex;
     align-items: center;
-    margin: 0 10px 20px;
     justify-content: space-between;
-    border: 1px solid $colorBorder;
     border-radius: 5px;
-    box-shadow: 5px 7px 9px -1px rgba(125, 120, 120, 0.75);
-    -webkit-box-shadow: 5px 7px 9px -1px rgba(125, 120, 120, 0.75);
-    -moz-box-shadow: 5px 7px 9px -1px rgba(125, 120, 120, 0.75);
+    box-shadow: $boxShadow;
     overflow: hidden;
     background: $colorWhite;
 }
@@ -23,6 +19,7 @@
 .media {
     flex: 0 1 40%;
     max-width: 40%;
+    background: $colorBorder;
 }
 
 .image {
