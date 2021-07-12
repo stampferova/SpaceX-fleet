@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.88865dc1.chunk.css",
+    "main.js": "/static/js/main.0767cae4.chunk.js",
+    "main.js.map": "/static/js/main.0767cae4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a8eb41e1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a8eb41e1.js.map",
+    "static/js/2.d0682785.chunk.js": "/static/js/2.d0682785.chunk.js",
+    "static/js/2.d0682785.chunk.js.map": "/static/js/2.d0682785.chunk.js.map",
+    "static/js/3.8c743914.chunk.js": "/static/js/3.8c743914.chunk.js",
+    "static/js/3.8c743914.chunk.js.map": "/static/js/3.8c743914.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.88865dc1.chunk.css.map": "/static/css/main.88865dc1.chunk.css.map",
+    "static/js/2.d0682785.chunk.js.LICENSE.txt": "/static/js/2.d0682785.chunk.js.LICENSE.txt",
+    "static/media/rocket.c5209960.svg": "/static/media/rocket.c5209960.svg",
+    "static/media/rockets.896e3123.jpg": "/static/media/rockets.896e3123.jpg",
+    "static/media/ships.ab1a5519.jpg": "/static/media/ships.ab1a5519.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8eb41e1.js",
+    "static/js/2.d0682785.chunk.js",
+    "static/css/main.88865dc1.chunk.css",
+    "static/js/main.0767cae4.chunk.js"
+  ]
+}
